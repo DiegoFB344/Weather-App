@@ -56,7 +56,7 @@ function App() {
               <div className="section section__inputs">
                 <input onKeyDown={enterKeyPressed} type="text" name="city" placeholder="Ingresa La Ciudad..."
                 />
-                <button onClick={(e) => handleUnitsClick(e)}>°F</button>
+                <button class="boton" onClick={(e) => handleUnitsClick(e)}>°F</button>
               </div>
 
               <div className="section section__temperature">
