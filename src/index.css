@@ -7,8 +7,8 @@
   margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  max-width: 100% !important;
-  overflow-x: hidden !important;
+  box-sizing: border-box;
+
 }
 
 .app {
@@ -98,8 +98,3 @@
 }
 
 
-@media screen and (max-width: 465px) {
-  .boton {
- 
-  }
-}
