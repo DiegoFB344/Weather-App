@@ -97,4 +97,16 @@
   font-size: 60px;
 }
 
+@media only screen and (max-width: 500px) {
+  .section__inputs>button {
+    width: 5px;
+    margin-left: 5px;
+    padding-left: 16px;
+    text-align: center;
+    
+  }
 
+  .section__inputs>input {
+  width: 235px;
+}
+}
