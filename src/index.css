@@ -112,7 +112,10 @@
 
 @media only screen and (max-width: 500px) {
   .btn {
-   text-align: center;
+   width: 60px !important;
+   color: rgb(31, 90, 114);
+   text-align: center !important;
+   margin-right: 6px !important;
 
   }
 }
