@@ -71,7 +71,7 @@
   border: none;
   border-radius: 0.4rem;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   background-color: #FFF;
 }
 
@@ -89,7 +89,7 @@
 
 .icon>h3 {
   font-size: 15px;
-  font-weight: 200;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
