@@ -107,5 +107,12 @@
   }
   .section__inputs>input {
   width: 235px;
+  } 
+}
+
+@media only screen and (max-width: 500px) {
+  .btn {
+   text-align: center;
+
   }
 }
