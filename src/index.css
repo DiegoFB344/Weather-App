@@ -71,7 +71,7 @@
   border: none;
   border-radius: 0.4rem;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   background-color: #FFF;
 }
 
@@ -89,7 +89,7 @@
 
 .icon>h3 {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
 }
 
@@ -113,7 +113,10 @@
 @media only screen and (max-width: 500px) {
   .btn {
    width: 60px !important;
+   padding: 10px !important;
    color: rgb(16, 135, 247);
    text-align: center !important;
   }
 }
+
+
