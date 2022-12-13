@@ -43,7 +43,7 @@ function App() {
       e.currentTarget.blur()
     }
 
-  }
+  };
   return (
     <div className="app" style={{
       backgroundImage: `url(${bg})
@@ -56,9 +56,8 @@ function App() {
               <div className="section section__inputs">
                 <input onKeyDown={enterKeyPressed} type="text" name="city" placeholder="Ingresa La Ciudad..."
                 />
-                <button class="btn" onClick={(e) => handleUnitsClick(e)}>°F</button>
+                <button className="btn" onClick={(e) => handleUnitsClick(e)}>°F</button>
               </div>
-
               <div className="section section__temperature">
                 <div className="icon">
                   <h3>{`${weather.name}, ${weather.country}`}</h3>

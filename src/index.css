@@ -71,7 +71,7 @@
   border: none;
   border-radius: 0.4rem;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   background-color: #FFF;
 }
 
@@ -89,7 +89,7 @@
 
 .icon>h3 {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
 }
 
@@ -114,7 +114,10 @@
   .btn {
    width: 60px !important;
    padding: 10px !important;
-   color: rgb(16, 135, 247);
+   color: rgb(172, 106, 44);
+   margin-right: 4px;
    text-align: center !important;
   }
 }
+
+
